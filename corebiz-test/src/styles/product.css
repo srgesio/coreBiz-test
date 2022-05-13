@@ -106,3 +106,9 @@
 .product-content:hover .buy-button {
     display: flex;
 }
+
+@media screen and (max-width: 1040px) {
+    .buy-button {
+        display: flex;
+    }
+}
