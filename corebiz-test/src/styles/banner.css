@@ -8,3 +8,11 @@
 .banner-container img {
     max-width: 100%;
 }
+
+@media screen and (max-width: 1040px) {
+
+    .banner-container,
+    .banner-container img {
+        width: 100%;
+    }
+}
