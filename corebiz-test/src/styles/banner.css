@@ -1,0 +1,10 @@
+.banner-container {
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-container img {
+    max-width: 100%;
+}

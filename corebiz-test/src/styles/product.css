@@ -1,0 +1,108 @@
+.product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+
+.flag-discount {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-left: 90px solid transparent;
+    border-top: 90px solid var(--emphasis);
+}
+
+.flag-discount span {
+    position: absolute;
+    top: -72px;
+    right: 12px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+}
+
+.product-image {
+    height: 200px;
+}
+
+.product-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    width: 100%;
+    transition: 100ms;
+}
+
+.product-content:hover {
+    background: #E6E8EA;
+    transition: 300ms;
+}
+
+.product-name {
+    color: #7A7A7A;
+    font-family: 'Nunito';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 100%;
+}
+
+.list-price {
+    color: #7A7A7A;
+    min-height: 16px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    text-decoration-line: line-through;
+}
+
+.price {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.installments {
+    color: #7A7A7A;
+    min-height: 16px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.buy-button {
+    display: none;
+    background: var(--primary);
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+.product-content:hover .buy-button {
+    display: flex;
+}

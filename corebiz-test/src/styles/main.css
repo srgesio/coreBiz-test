@@ -1,0 +1,32 @@
+:root {
+    --primary: #000;
+    --secondary: #F2F2F2;
+    --emphasis: #F8475F;
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.App {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1024px;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 95%;
+    }
+}
